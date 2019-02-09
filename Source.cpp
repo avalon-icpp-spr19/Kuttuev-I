@@ -30,7 +30,7 @@ int main()
 	* типа;
 	*/
 	a = 0;
-	b = 1;
+	b = 0xFFFFFFFF;
 	c = sizeof(long long int);
 	d = numeric_limits<char>::max();
 
