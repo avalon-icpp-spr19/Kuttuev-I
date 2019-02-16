@@ -93,13 +93,17 @@ https://ru.wikipedia.org/wiki/%D0%AE%D0%BB%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D
 * 12200					    3:23:20
 * 86000					    23:53:20
 */
-	/*int time;
+	int time;
 	cin >> time;
 	
 	int hour = time / 3600;
 	int min = time % 3600 /60;
+	int min1 = min /10;
+	int min2 = min %10;
 	int sec = time % 60;
-	cout << hour<< ':'<< min<<':'<< sec << endl;*/
+	int sec1 = sec / 10;
+	int sec2 = sec % 10;
+	cout << hour<< ':'<< min1 << min2 <<':'<< sec1 <<sec2 << endl;
 
 
 /* Упражнение 5
@@ -127,13 +131,13 @@ https://ru.wikipedia.org/wiki/%D0%AE%D0%BB%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D
 * 9999						1
 */
 
-int N;
-cin >> N;
-int a = N / 1000;
-int b =N % 1000 /100;
-int c = N % 1000 % 100 /10;
-int d = N % 10;
-cout << (a - d + 1) * (b - c + 1) << endl;
+//int N;
+//cin >> N;
+//int a = N / 1000;
+//int b =N % 1000 /100;
+//int c = N % 1000 % 100 /10;
+//int d = N % 10;
+//cout << (a - d + 1) * (b - c + 1) << endl;
 
 /* Дополнительное упражнение (будет оцениваться отдельно)
 * Улитка ползет по вертикальному шесту высотой H метров, поднимаясь за день на A метров, а за ночь спускаясь на B метров.
